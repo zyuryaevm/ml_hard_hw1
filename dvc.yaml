@@ -14,4 +14,8 @@ stages:
       - train.csv
       - test.csv
     outs:
-      - models/model.pkl
+      - models/ElasticNet.pkl
+      - models/LinearRegression.pkl
+      - models/RandomForestRegressor1.pkl
+      - models/RandomForestRegressor2.pkl
+      - models/SVR.pkl
