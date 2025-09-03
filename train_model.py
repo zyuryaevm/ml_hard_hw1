@@ -50,7 +50,7 @@ model1_params = {'model_type': 'RandomForestRegressor',
                  'random_state': 42}
 run_experiment('RandomForestRegressor1', model1, model1_params)
 
-model2 = RandomForestRegressor(n_estimators=100, max_depth=100, random_state=42)
+model2 = RandomForestRegressor(n_estimators=128, max_depth=100, random_state=42)
 model2_params = {'model_type': 'RandomForestRegressor',
                  'n_estimators': 100,
                  'max_depth': 100,
